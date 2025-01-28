@@ -1,0 +1,13 @@
+name: Example Action
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v2
+
+      - name: nitin.nitnav@gramener.com
+        run: echo "Hello, world! The email is included in the step name."
